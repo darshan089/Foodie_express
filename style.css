@@ -1,0 +1,242 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffe8e8, #fff3d1);
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+/* ------------------ CARD LOGIN ------------------ */
+.card {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.4);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.card-header {
+    background: linear-gradient(to right, #ff6b6b, #ffa500);
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-header h4 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.card-body label i {
+    color: #ff6b6b;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #ff6b6b, #ffa500);
+    border: none;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    filter: brightness(1.1);
+}
+
+.btn-link {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+/* ------------------ NAVBAR ------------------ */
+.navbar {
+    backdrop-filter: blur(12px);
+    background: rgba(255,255,255,0.7) !important;
+    padding: 15px 0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #ff6b6b !important;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: #555 !important;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: #ff6b6b !important;
+}
+
+.navbar .dropdown-menu {
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* ------------------ HERO ------------------ */
+.hero {
+    background: linear-gradient(120deg, #ff6b6b, #ffa500);
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.hero h1 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero .btn-lg {
+    padding: 12px 35px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* ------------------ MENU ------------------ */
+#menu h2 {
+    font-weight: 800;
+    color: #ff6b6b;
+}
+
+.menu-item {
+    border-radius: 15px;
+    border: none;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform .3s, box-shadow .3s;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.menu-item img {
+    border-radius: 12px;
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Add to Cart Button */
+.btn-add {
+    background: linear-gradient(to right, #28a745, #4cd964);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.btn-add:hover {
+    filter: brightness(1.1);
+}
+
+/* ------------------ CART ------------------ */
+.cart-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1rem;
+}
+
+.btn-remove {
+    background: #dc3545;
+    color: white;
+}
+
+/* ------------------ PROFILE ------------------ */
+#profile .card {
+    border-radius: 12px;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(10px);
+}
+
+#profile h2 {
+    font-weight: 700;
+    color: #ff6b6b;
+}
+
+/* ------------------ FOOTER ------------------ */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 25px 0;
+    margin-top: 50px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* ------------------ SEARCH ------------------ */
+.search-bar input,
+.search-bar select {
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* ------------------ MODAL ------------------ */
+.modal-content {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.modal-header {
+    background: linear-gradient(to right, #ff6b6b, #ffa500);
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+#history {
+    margin-top: 20px;
+}
+
+.order-box {
+    background: white;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.order-box h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.order-box p {
+    margin: 5px 0;
+    color: #555;
+}
+.order-box {
+    background: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
