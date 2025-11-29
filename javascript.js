@@ -328,7 +328,7 @@ function placeOrder() {
 
     localStorage.removeItem("cart");
 
-    alert("Order placed successfully!");
+    alert("History saved successfully!");
 }
 
 document.getElementById("cardMethod").addEventListener("change", function () {
@@ -345,4 +345,5 @@ document.querySelectorAll('input[name="paymentMethod"]').forEach(radio => {
 
 // Initialize
 renderMenu();
+
 updateCart();
