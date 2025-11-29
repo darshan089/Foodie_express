@@ -347,3 +347,4 @@ document.querySelectorAll('input[name="paymentMethod"]').forEach(radio => {
 renderMenu();
 
 updateCart();
+
